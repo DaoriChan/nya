@@ -6,13 +6,15 @@
     <title>Document</title>
   </head>
   <body>
-    <script>
-      const pass = prompt("Enter password:");
-      if (pass !== "3939") {
-        document.body.innerHTML = "<h1>Access denied</h1>";
-      }
-    </script>
-
-    <img src="image.png" alt="" />
+   <body>
+  <script>
+    const pass = prompt("Enter password:");
+    if (pass === "3939") {
+      document.body.innerHTML = '<img src="image.png" alt="" />';
+    } else {
+      document.body.innerHTML = "<h1>Access denied</h1>";
+    }
+  </script>
+</body>
   </body>
 </html>
